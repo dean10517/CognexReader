@@ -252,7 +252,7 @@ namespace WindowsFormsApp1
                     Close();
                 }
 
-                EthSystemConnector readerConn = new EthSystemConnector(System.Net.IPAddress.Parse("192.168.100.1"));
+                EthSystemConnector readerConn = new EthSystemConnector(System.Net.IPAddress.Parse(_IP));
                 _Reader = new DataManSystem(readerConn);
                 _Reader.SystemConnected += _Reader_SystemConnected;         //條碼機建立連線事件
                 _Reader.SystemDisconnected += _Reader_SystemDisconnected;   //條碼機斷線事件

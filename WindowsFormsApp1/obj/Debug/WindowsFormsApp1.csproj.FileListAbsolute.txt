@@ -37,3 +37,4 @@ D:\GIT\CognexReader\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompi
 D:\GIT\CognexReader\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
 D:\GIT\CognexReader\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 D:\GIT\CognexReader\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\dean1\Documents\Git_Repo\CognexReader\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.dll

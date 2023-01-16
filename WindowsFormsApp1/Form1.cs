@@ -46,7 +46,8 @@ namespace WindowsFormsApp1
             int readerId = cmb_ReaderId.SelectedIndex;
 
             string[] recvData = new string[] { };
-            CognexReader.MutiRead(readerId, ref recvData);
+            int ret = CognexReader.MutiRead(readerId, ref recvData);
+            Console.WriteLine(ret);
             tb_ReadResult.Text = "";
             foreach (string s in recvData)
             {
@@ -58,7 +59,8 @@ namespace WindowsFormsApp1
             int readerId = cmb_ReaderId.SelectedIndex;
 
             string recvData = "";
-            CognexReader.SingleRead(readerId, ref recvData);
+            int ret = CognexReader.SingleRead(readerId, ref recvData);
+            Console.WriteLine(ret);
             tb_ReadResult.Text = recvData;
         }
     }
