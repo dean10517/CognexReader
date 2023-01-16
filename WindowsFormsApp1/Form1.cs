@@ -18,7 +18,8 @@ namespace WindowsFormsApp1
         }
         private void tmr_Status_Tick(object sender, EventArgs e)
         {
-            lb_Status.Text = CognexReader.IsConnect ? "Connected" : "Disconnected";
+            lb_Status0.Text = CognexReader.IsConnected(0) ? "Connected" : "Disconnected";
+            lb_Status1.Text = CognexReader.IsConnected(1) ? "Connected" : "Disconnected";
         }
         private void btn_Connect_Click(object sender, EventArgs e)
         {
@@ -29,8 +30,10 @@ namespace WindowsFormsApp1
         {
             try
             {
+                int readerId = cmb_ReaderId.SelectedIndex;
+
                 string recvData = "";
-                CognexReader.Cmd(tb_Command.Text, ref recvData);
+                CognexReader.Cmd(readerId, tb_Command.Text, ref recvData);
                 tb_ReadResult.Text = recvData;
             }
             catch (Exception ex)
@@ -40,19 +43,23 @@ namespace WindowsFormsApp1
         }
         private void btn_MutiRead_Click(object sender, EventArgs e)
         {
+            int readerId = cmb_ReaderId.SelectedIndex;
+
             string[] recvData = new string[] { };
-            CognexReader.MutiRead(ref recvData);
+            CognexReader.MutiRead(readerId, ref recvData);
             tb_ReadResult.Text = "";
             foreach (string s in recvData)
             {
                 tb_ReadResult.Text += s + "\r\n";
-            }            
+            }
         }
         private void btn_SingleRead_Click(object sender, EventArgs e)
         {
+            int readerId = cmb_ReaderId.SelectedIndex;
+
             string recvData = "";
-            CognexReader.SingleRead(ref recvData);
-            tb_ReadResult.Text = recvData;            
+            CognexReader.SingleRead(readerId, ref recvData);
+            tb_ReadResult.Text = recvData;
         }
     }
 }

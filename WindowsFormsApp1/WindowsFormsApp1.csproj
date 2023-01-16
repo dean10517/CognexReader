@@ -36,6 +36,10 @@
     <Reference Include="Cognex.DataMan.SDK.PC">
       <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Cognex\DataMan\DataMan Software v6.1.13_sr3\Cognex.DataMan.SDK.PC.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\RTC5Wobble\RTC5Wobble\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -49,7 +53,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CognexReader.cs" />
+    <Compile Include="CognexReaderUnit.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -24,3 +24,16 @@ C:\Users\dean1\Documents\Git_Repo\CognexReader\WindowsFormsApp1\obj\Debug\Window
 C:\Users\dean1\Documents\Git_Repo\CognexReader\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
 C:\Users\dean1\Documents\Git_Repo\CognexReader\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\dean1\Documents\Git_Repo\CognexReader\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\GIT\CognexReader\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\GIT\CognexReader\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\GIT\CognexReader\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\GIT\CognexReader\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.dll
+D:\GIT\CognexReader\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+D:\GIT\CognexReader\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+D:\GIT\CognexReader\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\GIT\CognexReader\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\GIT\CognexReader\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\GIT\CognexReader\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\GIT\CognexReader\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+D:\GIT\CognexReader\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\GIT\CognexReader\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
